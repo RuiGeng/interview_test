@@ -11,7 +11,7 @@ describe("<Footer />", function() {
 
   it("contains a <p> html", function() {
     const wrapper = shallow(<Footer />);
-    expect(wrapper.find('p').length).toBe(1);
+    expect(wrapper.find('footer').children('p').length).toBe(1);
   });
 
   it("ccontains footer class", function() {
