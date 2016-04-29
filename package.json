@@ -1,6 +1,6 @@
 {
-  "name": "enzyme-example-karma-webpack",
-  "version": "0.1.4",
+  "name": "enzyme-karma-webpack",
+  "version": "0.0.1",
   "description": "",
   "main": "build/index.js",
   "dependencies": {
@@ -30,6 +30,7 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.4.5",
     "phantomjs-prebuilt": "^2.1.4",
+    "sinon": "^1.17.3",
     "watchify": "^3.7.0",
     "webpack": "^1.12.12"
   },
@@ -39,12 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lelandrichardson/enzyme-example-karma-webpack.git"
-  },
-  "author": "Leland Richardson <leland.richardson@airbnb.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lelandrichardson/enzyme-example-karma-webpack/issues"
-  },
-  "homepage": "https://github.com/lelandrichardson/enzyme-example-karma-webpack#readme"
+    "url": "git+https://github.com/RuiGeng/interview_test"
+  }
 }
